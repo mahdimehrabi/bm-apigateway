@@ -6,6 +6,6 @@ type Article struct {
 	Body     string  `json:"body" binding:"required"`
 	Tags     string  `json:"tags" binding:"required"`
 	Price    float64 `json:"price" binding:"required"`
-	BuyCount int64   `json:"buyCount" binding:"required"`
+	BuyCount int64   `json:"buyCount" `
 	UserID   int64   `json:"userID" binding:"required"`
 }

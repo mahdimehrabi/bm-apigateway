@@ -17,6 +17,7 @@ func (r route) Handle(c *gin.Engine) {
 	handler := article.Handler{}
 	g := c.Group("/articles")
 	{
+		g.GET("/", handler.GetAll)
 		g.POST("/", handler.Create)
 	}
 }

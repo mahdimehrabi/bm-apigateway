@@ -1,5 +1,3 @@
 implement endpoint for articles
--first without ssl
--implement ssl
 implement endpoint for users
 -implement ssl certificate for users
